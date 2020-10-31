@@ -6,9 +6,24 @@
 </head>
 
  <body>
-
-<a href="{% url 'home' %}">Home</a> / 
-<a href="{% url 'signup' %}">Sign up</a>
+  <nav>
+    <!-- <div><a href=""></a></div> -->
+    <a id="resp-menu" class="responsive-menu" href="#">
+      <img class="logo"  src="./assets/logo/Logo white.png" alt="Image not Found"><i class="fa fa-reorder"></i> Menu
+    </a>    
+     <li><a href=""><img class="logo" src="./assets/logo/Logo white.png" alt="Image not Found "></a>  </li>
+    <ul class="menu">
+       <li><a class="homer home" href="#"><!--<i class="fa fa-home"></i>--> Login</a>       </li>
+      
+      <li><a  href="#"><!--<i class="fa fa-graduation-cap"></i>--> signup</a>
+      <ul class="sub-menu">
+       
+     
+  
+      </ul>
+      </nav>
+<!-- <a href="{% url 'home' %}">Home</a> / 
+<a href="{% url 'signup' %}">Sign up</a> -->
  
 <h2>Login</h2>
 <form method="post">
